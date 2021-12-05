@@ -1,8 +1,8 @@
 <?php
 
 /**
-  * @multics panel v4.8 release 26-10-2021
-  * @oscam, multics, iptv 3in1 panel
+  * @oscam reshare master v1.0 release 05-12-2021
+  * @Please don't remove credits for more sharing or script like that.
   * @developer: Muhammad Ashan (Xtream-Masters.com)
 */
 
