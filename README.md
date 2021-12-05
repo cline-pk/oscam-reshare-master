@@ -5,4 +5,8 @@ because this script will help you to change normal lines after every hour automa
 
 then in lines.php file you need put 24.lines like calculation pattern you can use same lines more then once after some hours delay.
 
+then add cronjob.
+
+5 */1 * * * php /usr/local/reader.php
+
 Happy sharing, enjoy.
