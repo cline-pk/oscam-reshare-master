@@ -63,8 +63,8 @@ file_put_contents("/usr/local/etc/oscam.server", $readers);
 //set your oscam ip and port then user and password to allow oscam access to this script for auto chnge readers each hour.
 
  $os_user = 'admin'; $os_pass = 'pass'; // replace oscam user,pass
- $url = 'http://lcoalhost:4444/userconfig.html?action=reloadreaders'; // replace your server ip and port.
- $data = [ $content, 'action' => 'reloadreaders' ];
+ $url = 'http://lcoalhost:4444/readers.html?action=reloadreaders'; // replace your server ip and port.
+ $data = [ 'action' => 'reloadreaders' ];
  $dataos = http_build_query($data);
  $ch = curl_init();
  curl_setopt($ch,CURLOPT_URL, $url);
