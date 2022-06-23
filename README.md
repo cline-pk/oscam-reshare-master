@@ -7,6 +7,6 @@ then in lines.php file you need put 24.lines like calculation pattern you can us
 
 then add cronjob.
 
-5 */1 * * * php /usr/local/reader.php
+`5 */1 * * * php /usr/local/reader.php`
 
 Happy sharing, enjoy.
